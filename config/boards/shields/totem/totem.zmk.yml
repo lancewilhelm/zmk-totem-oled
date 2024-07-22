@@ -1,13 +1,13 @@
 file_format: "1"
-id: cygnus
-name: Cygnus
+id: totem
+name: Totem
 type: shield
 url:
 requires:
-  - pro_micro
+  - seeeduino_xiao_ble
 exposes:
 features:
   - keys
 siblings:
-  - cygnus_left
-  - cygnus_right
+  - totem_left
+  - totem_right
