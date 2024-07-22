@@ -28,3 +28,7 @@ include:
     artifact-name: totem_peripheral_right
   - board: seeeduino_xiao_ble
     shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: totem_central_dongle dongle_display
+    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+    artifact-name: totem_central_dongle_with_logging
